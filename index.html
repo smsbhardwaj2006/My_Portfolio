@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+  emailjs.init("pNCVklTJbbtDeRf9W"); // EmailJS dashboard se Public Key yahan paste karein
+</script>
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <a href="#" class="logo">Port<span>folio</span></a>
+
+        <!-- Hamburger for mobile -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="navbar" id="navbar">
+            <a href="#Home"     style="--i:1" class="active">Home</a>
+            <a href="#about"    style="--i:2">About</a>
+            <a href="#services" style="--i:4">Services</a>
+            <a href="#Skills"   style="--i:3">Skills</a>
+            <a href="#portfolio"   style="--i:3">Projects</a>
+            <a href="#contact"  style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ===== HOME ===== -->
+    <section class="home" id="Home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Sahil Bhardwaj</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I'm a Full Stack Developer.<br>
+               expertise is to create & design professional or responsive websites and many more....</p>
+            <div class="home-sci">
+                <a href="https://wa.me/916397411896" target="_blank" style="--i:9">
+    <i class="bx bxl-whatsapp"></i>
+</a>
+                <a href="https://github.com/smsbhardwaj2006"><i class="bx bxl-github"></i></a>
+                <a href="https://www.instagram.com/_sahilbhardwaj_52?igsh=MTU2NTdtcGtvdHlpcA==" style="--i:8"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/sahil-bhardwaj-738739295?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image2.png" alt="Anamol Tiwari">
+        </div>
+        <div class="about-text">
+            <h2>About <span>me</span></h2>
+            <h4>Full Stack Developer</h4>
+            <p>B.Tech final year student specializing in Artificial Intelligence & Machine Learning passionate about 
+                Full Stack Develpoment and Software Engineering with a solid foundation in programming languages
+             including C, C++ and Python. My expertise includes HTML5, CSS3, JavaScript, React.js, Django, REST APIs, MySQL and MongoDB.
+              Developed two practical Full Stack projects including a E-Commerce Website and a College Placement Management System.
+             Possess foundational knowledge of Cloud Computing and DevOps. Enrolled in an AI internship through the IBM PBEL program, 
+             gaining practical exposure to AI concepts and industry practices.</p>
+            <a href="https://www.linkedin.com/in/sahil-bhardwaj-738739295?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="services-list">
+            <div>
+                <i class="bx bx-code-alt"></i>
+                <h2>Frontend Development</h2>
+                <p>Build modern, responsive, and user-friendly interfaces using HTML5, CSS3, JavaScript,
+                    and modern frameworks such as React.js to deliver seamless user experiences across all devices.</p>
+                <a href="https://www.geeksforgeeks.org/blogs/front-end-development/" class="read">learn more</a>
+            </div>
+            <div>
+                <i class="bx bx-server"></i>
+                <h2>Backend Development</h2>
+                <p>Develop secure and scalable server-side applications, handle business logic,
+                    manage data processing, and ensure smooth communication by using Django between users and databases.</p>
+                <a href="https://www.geeksforgeeks.org/blogs/backend-development/" class="read">learn more</a>
+            </div>
+            <div>
+                <i class="bx bx-data"></i>
+                <h2>Database Management</h2>
+                <p>Design, implement, and maintain efficient databases to store, organize, and retrieve
+                     application data securely while ensuring optimal performance by using MySQL and MongoDB.</p>
+                <a href="https://www.geeksforgeeks.org/dbms/introduction-of-dbms-database-management-system-set-1/" class="read">learn more</a>
+            </div>
+            <div>
+                <i class="bx bx-link-alt"></i>
+                <h2>API Development &amp; Integration</h2>
+                <p>Create and integrate RESTful APIs that enable seamless communication between frontend
+                     applications, backend systems, and third-party services.</p>
+                <a href="https://www.geeksforgeeks.org/blogs/what-is-api-integration/" class="read">learn more</a>
+            </div>
+            <div>
+                <i class="bx bx-devices"></i>
+                <h2>Responsive Web Design</h2>
+                <p>Develop fully responsive websites that provide an optimal viewing experience across desktops,
+                     tablets, and mobile devices with consistent performance.</p>
+                <a href="https://www.geeksforgeeks.org/websites-apps/responsive-web-design/" class="read">learn more</a>
+            </div>
+            <div>
+                <i class="bx bx-desktop"></i>
+                <h2>Web Application Development</h2>
+                <p>Build complete web applications from concept to deployment, including dashboards, management
+                     systems, e-commerce platforms, and custom business solutions.</p>
+                <a href="https://www.techtarget.com/searchcloudcomputing/definition/web-application-development" class="read">learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    <section class="section" id="Skills">
+        <div class="container1">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+                <div class="bar">
+                    <i style="color:#c95d2e" class="bx bxl-html5"></i>
+                    <div class="info"><span>HTML</span></div>
+                    <div class="progress-line html"><span></span></div>
+                </div>
+                <div class="bar">
+                    <i class="bx bxl-css3" style="color:#147bbc"></i>
+                    <div class="info"><span>CSS</span></div>
+                    <div class="progress-line css"><span></span></div>
+                </div>
+                <div class="bar">
+                    <i class="bx bxl-javascript" style="color:#b0bc1e"></i>
+                    <div class="info"><span>JavaScript</span></div>
+                    <div class="progress-line javascript"><span></span></div>
+                </div>
+                <div class="bar">
+                   <i class="bx bxl-react" style= "color:#61dafb"></i>
+                    <div class="info"><span>React</span></div>
+                    <div class="progress-line python"><span></span></div>
+                </div>
+                <div class="bar">
+                    <i class="bx bxl-django" style="color:#44b78b"></i>
+                    <div class="info"><span>Django</span></div>
+                    <div class="progress-line django"><span></span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progrss-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1"  cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">95%</div>
+                    <div class="text">Communication</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progrss-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2"  cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Problem Solving</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progrss-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3"  cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">95%</div>
+                    <div class="text">Teamwork</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progrss-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4"  cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                    <div class="text">Creativity</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="portfolio">
+        <div class="main-text">
+            <h2>My <span>Projects</span></h2>
+            <div class="portfolio-content">
+                <div class="row">
+                    <img src="finance.png" alt="Finance Management Application">
+                    <div class="layer">
+                        <h5>Finance Management Application</h5>
+                        <p>Built a responsive finance management system that enables users to track income, expenses,
+                            budgets, and savings through an interactive dashboard with real-time analytics and financial reports.</p>
+                        <a href="#"><i class="bx bx-link-external" style="color:aliceblue;"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="Dashboard.png" alt="Dashboard A.I.">
+                    <div class="layer">
+                        <h5>Dashboard A.I.</h5>
+                        <p>Built a responsive AI-powered dashboard that displays model performance, predictions, system analytics,
+                            and real-time insights through interactive charts and data visualizations.</p>
+                        <a href="#"><i class="bx bx-link-external" style="color:aliceblue;"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="clone.png" alt="Shopping Application Clone">
+                    <div class="layer">
+                        <h5>Shopping Application Clone</h5>
+                        <p>Built a responsive e-commerce website clone with product listings,
+                            category navigation, search functionality, and modern UI design using HTML, CSS, and JavaScript.
+                            Focused on responsive layouts, user experience, and front-end development best practices.</p>
+                        <a href="#"><i class="bx bx-link-external" style="color:aliceblue;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work Together</h4>
+            <p>I am a passionate Full Stack Developer dedicated to building responsive, user-friendly, and scalable web applications.
+                 Whether you need a modern website, a dynamic web application, or a custom software solution,
+                  I am ready to help bring your ideas to life. Let's collaborate and create something amazing together.</p>
+            <ul class="contact-list">
+                <li><i class="bx bxs-send"></i> <a href="mailto:smsbhardwaj2006@gmail.com">smsbhardwaj2006@gmail.com</a></li>
+                <li><i class="bx bxs-phone"></i><a href="tel:+916397411896">+91 6397411896</a></li>
+            </ul>
+            <div class="contact-icons">
+               <a href="https://wa.me/916397411896" target="_blank" style="--i:9">
+    <i class="bx bxl-whatsapp"></i>
+</a>
+                <a href="https://share.google/LdiGbxSfPQrlA8ZnP"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.instagram.com/_sahilbhardwaj_52?igsh=MTU2NTdtcGtvdHlpcA=="><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sahil-bhardwaj-738739295?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+         <div class="contact-form">
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Enter Your Name" required>
+        <input type="email" id="email" placeholder="Enter Your Email" required>
+        <input type="text" id="subject" placeholder="Enter Your Subject">
+        <textarea id="message" placeholder="Enter Your Message"></textarea>
+        <input type="submit" value="Submit" class="send">
+        <p id="statusMsg" style="color: cyan; display:none; margin-top:10px;"></p>
+    </form>
+</div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <div class="last-text">
+        <p>Develoved With passion by Sahil Bhardwaj @ 2026</p>
+    </div>
+
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+
+    <script src="main.js"></script>
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navbar    = document.getElementById('navbar');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('open');
+            navbar.classList.toggle('open');
+        });
+
+        // Close menu when a nav link is clicked
+        navbar.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('open');
+                navbar.classList.remove('open');
+            });
+        });
+
+        // Active nav link on scroll
+        const sections = document.querySelectorAll('section[id], div[id]');
+        const navLinks  = document.querySelectorAll('.navbar a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(sec => {
+                if (window.scrollY >= sec.offsetTop - 100) current = sec.id;
+            });
+            navLinks.forEach(a => {
+                a.classList.remove('active');
+                if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
